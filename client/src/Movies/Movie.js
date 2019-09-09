@@ -4,8 +4,8 @@ import MovieCard from './MovieCard';
 
 
 
+
 const Movie = (props) => {
-  console.log(props)
   const [movie, setMovie] = useState();
  
   useEffect(() => {
